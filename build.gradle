@@ -20,8 +20,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
         maven { url 'https://jitpack.io' }
-        
+        //maven{url "${HOME}/.m2/repository/"}
+       // maven{url "C:\\Users\\prathap_badavath\\.m2\\repository/"}
+
     }
 }
 
